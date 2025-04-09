@@ -1,0 +1,39 @@
+/* styles.css */
+.app {
+  display: flex;
+}
+
+.toolbar {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+.toolbar-item {
+  padding: 10px;
+  margin: 5px;
+  background: #ccc;
+  cursor: grab;
+}
+
+.canvas {
+  flex: 1;
+  border: 1px dashed #aaa;
+  position: relative;
+  min-height: 500px;
+}
+
+.element {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+  background: #fff;
+}
+
+.hover {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.dragging {
+  opacity: 0.5;
+}
